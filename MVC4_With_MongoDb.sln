@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample.Web", "Sample.Web\Sample.Web.csproj", "{31EBC36D-823F-4613-99D2-014DF6A9C45E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample.Core.Implementation", "Sample.Core.Implementation\Sample.Core.Implementation.csproj", "{B7BB9CA8-5BB8-4E3D-B2B6-FD9FB7762C61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample.Core", "Sample.Core\Sample.Core.csproj", "{36A9C6EA-E96E-4046-96F4-0F6256EF7EC6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{31EBC36D-823F-4613-99D2-014DF6A9C45E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31EBC36D-823F-4613-99D2-014DF6A9C45E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31EBC36D-823F-4613-99D2-014DF6A9C45E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31EBC36D-823F-4613-99D2-014DF6A9C45E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7BB9CA8-5BB8-4E3D-B2B6-FD9FB7762C61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7BB9CA8-5BB8-4E3D-B2B6-FD9FB7762C61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7BB9CA8-5BB8-4E3D-B2B6-FD9FB7762C61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7BB9CA8-5BB8-4E3D-B2B6-FD9FB7762C61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36A9C6EA-E96E-4046-96F4-0F6256EF7EC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36A9C6EA-E96E-4046-96F4-0F6256EF7EC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36A9C6EA-E96E-4046-96F4-0F6256EF7EC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36A9C6EA-E96E-4046-96F4-0F6256EF7EC6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.2\lib\NET35
+	EndGlobalSection
+EndGlobal
