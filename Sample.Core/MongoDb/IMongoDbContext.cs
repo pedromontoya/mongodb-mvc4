@@ -1,4 +1,5 @@
-﻿using MongoDB.Driver;
+﻿using MongoDB.Bson;
+using MongoDB.Driver;
 using Sample.Core.Models;
 using System;
 namespace Sample.Core.MongoDb
@@ -20,5 +21,7 @@ namespace Sample.Core.MongoDb
         /// <param name="collectionName">The name of the collection within the Mongo Database associated to the context from which to retrieve values.</param>
         /// <returns>A MongoCollection for accessing values of the specified type.</returns>
         MongoCollection<T> GetMongoCollection<T>(string collectionName);
+
+        MongoCollection<BsonDocument> GetBsonMongoCollection(string collectionName);
     }
 }

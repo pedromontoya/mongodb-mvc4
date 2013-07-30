@@ -1,4 +1,5 @@
-﻿using MongoDB.Driver;
+﻿using MongoDB.Bson;
+using MongoDB.Driver;
 using Sample.Core.Models;
 using Sample.Core.MongoDb;
 using System.Configuration;
@@ -49,6 +50,11 @@ namespace Sample.Core.Implementation.MongoDb
         public MongoCollection<T> GetMongoCollection<T>(string collectionName)
         {
             return _mongoDatabase.GetCollection<T>(collectionName);
+        }
+
+        public MongoCollection<BsonDocument> GetBsonMongoCollection(string collectionName)
+        {
+           return _mongoDatabase.GetCollection<BsonDocument>(collectionName);
         }
     }
 }
